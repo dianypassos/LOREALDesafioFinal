@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EFEEF3;
+  color: #000000;
+  font-family: "Kodchasan", system-ui;
+  font-weight: 400;
+  font-size: 1rem;
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header nav {
+  margin-right: 1%;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 50vw;
+}
+@media (max-width: 800px) {
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  header li {
+    margin-top: 2%;
+  }
+}
+header img {
+  width: 7%;
+  margin: 1% 1%;
+}
+@media (max-width: 800px) {
+  header img {
+    width: 30%;
+    margin-bottom: 3%;
+  }
+}
+
+.bg {
+  position: relative;
+  z-index: 1;
+}
+
+.meninas {
+  width: 100%;
+  position: relative;
+  top: -85px;
+}
+@media (max-width: 800px) {
+  .meninas {
+    display: none;
+  }
+}
+
+body {
+  background-color: #EFEEF3;
+}
+
+.primeiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kodchasan", system-ui;
+  margin: 0% 15%;
+}
+@media (max-width: 800px) {
+  .primeiraSessao {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.primeiraSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+}
+.primeiraSessao h1 {
+  font-size: 2rem;
+  margin-bottom: 1%;
+  font-weight: 300;
+}
+@media (max-width: 800px) {
+  .primeiraSessao h1 {
+    align-items: center;
+    width: 60vw;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.4rem;
+  }
+}
+.primeiraSessao p {
+  width: 30vw;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
+  .primeiraSessao p {
+    margin-top: 10%;
+    text-align: center;
+    width: 60vw;
+    font-size: 1rem;
+  }
+}
+.primeiraSessao img {
+  width: 40%;
+}
+@media (max-width: 800px) {
+  .primeiraSessao img {
+    width: 80%;
+    margin-top: 2%;
+  }
+}
+
+.segundaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kodchasan", system-ui;
+  font-weight: 400;
+  margin: 2% 10%;
+}
+@media (max-width: 800px) {
+  .segundaSessao {
+    flex-direction: column;
+  }
+}
+.segundaSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+@media (max-width: 800px) {
+  .segundaSessao div {
+    margin-top: 10%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+.segundaSessao h2 {
+  font-weight: 300;
+  margin-left: 6.1%;
+}
+@media (max-width: 800px) {
+  .segundaSessao h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
